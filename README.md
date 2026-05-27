@@ -1,5 +1,5 @@
-```python
-content = """# 🔐 Personal Data Flow Mapper
+
+ 🔐 Personal Data Flow Mapper
 
 > Enterprise-grade static analysis for detecting and tracing sensitive data movement across Python applications.
 
@@ -297,36 +297,5 @@ high_risk = any(
 if high_risk:
     print("Sensitive data exposure detected.")
     sys.exit(1)
-
-```
-
-# Roadmap
-
-* [ ] Cross-file data flow tracking
-* [ ] Function-level taint propagation
-* [ ] TypeScript / JavaScript support
-* [ ] HTML visualization dashboard
-* [ ] Graph-based flow rendering
-* [ ] YAML-based custom policy rules
-* [ ] GitHub Actions integration
-* [ ] GDPR / HIPAA compliance tagging
-* [ ] SARIF export support
-* [ ] VSCode extension
-
-# License
-
-MIT License
-
-# Disclaimer
-
-This tool assists with identifying potential sensitive-data flows but should not replace formal security audits or compliance reviews.
-"""
-with open('Personal_Data_Flow_Mapper.md', 'w', encoding='utf-8') as f:
-f.write(content)
-print("File created.")
-
-```
-Your MD file is ready
-[file-tag: code-generated-file-0-1779885156805427055]
 
 ```
