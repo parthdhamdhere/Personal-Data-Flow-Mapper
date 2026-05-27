@@ -1,0 +1,5 @@
+# No third-party dependencies required for core scanner.
+# The AST module is part of Python's standard library.
+
+# Optional: install for richer terminal output
+# rich>=13.0.0
